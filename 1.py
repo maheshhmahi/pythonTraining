@@ -3,7 +3,7 @@ def palindrome_check(num):
     return n == n[::-1]
 
 
-num = 1001
+num = 10101
 if palindrome_check(num):
     print(f"This {num} is a palindrome")
 else:
